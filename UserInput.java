@@ -4,7 +4,7 @@ public class UserInput{
 
     
     public UserInput(){
-         //this space for rent...
+ 
     }
     
     public static int getInteger(){
