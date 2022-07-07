@@ -45,24 +45,7 @@ public class Simulation extends javax.swing.JFrame {
 		buttonAcid3.setEnabled(false);
 		
 		
-	/*	Color d = new Color(216,191,216);
 		
-		Graphics f = panelTitrate.getGraphics();
-		f.setColor(d);
-		f.fillRect(0,0,panelTitrate.getWidth(), panelTitrate.getHeight());
-		
-		if (concentration-geteqPoint()<=1){
-			Color l = new Color(218,112,214);
-			Graphics m = panelTitrate.getGraphics();
-			m.setColor(l);
-			m.fillRect(0,0,panelTitrate.getWidth(), panelTitrate.getHeight());
-			buttonAcid1.setEnabled(false);
-			buttonAcid2.setEnabled(false);
-			buttonAcid3.setEnabled(false);
-		}
-		
-	
-	*/
 		if (concentration==geteqPoint()) {
 			System.out.println("Equivalence Point Reached!");
 			Color h = new Color(238,130,238);
